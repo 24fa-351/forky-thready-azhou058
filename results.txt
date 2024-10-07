@@ -1,0 +1,404 @@
+Pattern 1 - Run 1
+----------------------------------
+** Pattern 1: creating 6 processes
+Parent: created child 0 (pid 80532)
+Parent: created child 1 (pid 80533)
+Process 0 (pid 80532) created and will sleep for 1 seconds
+Parent: created child 2 (pid 80534)
+Process 1 (pid 80533) created and will sleep for 2 seconds
+Parent: created child 3 (pid 80535)
+Process 2 (pid 80534) created and will sleep for 7 seconds
+Process 3 (pid 80535) created and will sleep for 8 seconds
+Parent: created child 4 (pid 80536)
+Process 4 (pid 80536) created and will sleep for 5 seconds
+Parent: created child 5 (pid 80537)
+** Pattern 1: All processes created
+Process 5 (pid 80537) created and will sleep for 6 seconds
+Process 0 (pid 80532): exiting
+Process 1 (pid 80533): exiting
+Process 4 (pid 80536): exiting
+Process 5 (pid 80537): exiting
+Process 2 (pid 80534): exiting
+Process 3 (pid 80535): exiting
+** Pattern 1: All children have exited
+----------------------------------
+Pattern 1 - Run 2
+** Pattern 1: creating 6 processes
+Parent: created child 0 (pid 80610)
+Process 0 (pid 80610) created and will sleep for 5 seconds
+Parent: created child 1 (pid 80611)
+Process 1 (pid 80611) created and will sleep for 6 seconds
+Parent: created child 2 (pid 80612)
+Parent: created child 3 (pid 80613)
+Process 2 (pid 80612) created and will sleep for 7 seconds
+Process 3 (pid 80613) created and will sleep for 8 seconds
+Parent: created child 4 (pid 80614)
+Process 4 (pid 80614) created and will sleep for 1 seconds
+Parent: created child 5 (pid 80615)
+** Pattern 1: All processes created
+Process 5 (pid 80615) created and will sleep for 2 seconds
+Process 4 (pid 80614): exiting
+Process 5 (pid 80615): exiting
+Process 0 (pid 80610): exiting
+Process 1 (pid 80611): exiting
+Process 2 (pid 80612): exiting
+Process 3 (pid 80613): exiting
+** Pattern 1: All children have exited
+----------------------------------
+Pattern 1 - Run 3
+** Pattern 1: creating 6 processes
+Parent: created child 0 (pid 80656)
+Process 0 (pid 80656) created and will sleep for 3 seconds
+Parent: created child 1 (pid 80657)
+Process 1 (pid 80657) created and will sleep for 4 seconds
+Parent: created child 2 (pid 80658)
+Process 2 (pid 80658) created and will sleep for 5 seconds
+Parent: created child 3 (pid 80659)
+Process 3 (pid 80659) created and will sleep for 6 seconds
+Parent: created child 4 (pid 80660)
+Process 4 (pid 80660) created and will sleep for 7 seconds
+Parent: created child 5 (pid 80661)
+** Pattern 1: All processes created
+Process 5 (pid 80661) created and will sleep for 8 seconds
+Process 0 (pid 80656): exiting
+Process 1 (pid 80657): exiting
+Process 2 (pid 80658): exiting
+Process 3 (pid 80659): exiting
+Process 4 (pid 80660): exiting
+Process 5 (pid 80661): exiting
+** Pattern 1: All children have exited
+----------------------------------
+Pattern 1 - Run 4
+** Pattern 1: creating 10 processes
+Parent: created child 0 (pid 81948)
+Process 0 (pid 81948) created and will sleep for 5 seconds
+Parent: created child 1 (pid 81949)
+Process 1 (pid 81949) created and will sleep for 6 seconds
+Parent: created child 2 (pid 81950)
+Process 2 (pid 81950) created and will sleep for 3 seconds
+Parent: created child 3 (pid 81951)
+Parent: created child 4 (pid 81952)
+Process 3 (pid 81951) created and will sleep for 4 seconds
+Process 4 (pid 81952) created and will sleep for 1 seconds
+Parent: created child 5 (pid 81953)
+Parent: created child 6 (pid 81954)
+Process 5 (pid 81953) created and will sleep for 2 seconds
+Process 6 (pid 81954) created and will sleep for 7 seconds
+Parent: created child 7 (pid 81955)
+Parent: created child 8 (pid 81956)
+Process 7 (pid 81955) created and will sleep for 8 seconds
+Process 8 (pid 81956) created and will sleep for 5 seconds
+Parent: created child 9 (pid 81957)
+** Pattern 1: All processes created
+Process 9 (pid 81957) created and will sleep for 6 seconds
+Process 4 (pid 81952): exiting
+Process 5 (pid 81953): exiting
+Process 2 (pid 81950): exiting
+Process 3 (pid 81951): exiting
+Process 0 (pid 81948): exiting
+Process 8 (pid 81956): exiting
+Process 1 (pid 81949): exiting
+Process 9 (pid 81957): exiting
+Process 6 (pid 81954): exiting
+Process 7 (pid 81955): exiting
+** Pattern 1: All children have exited
+----------------------------------
+Pattern 1 - Run 5
+** Pattern 1: creating 30 processes
+Parent: created child 0 (pid 82027)
+Process 0 (pid 82027) created and will sleep for 1 seconds
+Parent: created child 1 (pid 82028)
+Process 1 (pid 82028) created and will sleep for 4 seconds
+Parent: created child 2 (pid 82029)
+Process 2 (pid 82029) created and will sleep for 3 seconds
+Parent: created child 3 (pid 82030)
+Parent: created child 4 (pid 82031)
+Process 3 (pid 82030) created and will sleep for 6 seconds
+Process 4 (pid 82031) created and will sleep for 5 seconds
+Parent: created child 5 (pid 82032)
+Process 5 (pid 82032) created and will sleep for 8 seconds
+Parent: created child 6 (pid 82033)
+Process 6 (pid 82033) created and will sleep for 7 seconds
+Parent: created child 7 (pid 82034)
+Parent: created child 8 (pid 82035)
+Process 7 (pid 82034) created and will sleep for 2 seconds
+Process 8 (pid 82035) created and will sleep for 1 seconds
+Parent: created child 9 (pid 82036)
+Process 9 (pid 82036) created and will sleep for 4 seconds
+Parent: created child 10 (pid 82037)
+Process 10 (pid 82037) created and will sleep for 3 seconds
+Parent: created child 11 (pid 82038)
+Process 11 (pid 82038) created and will sleep for 6 seconds
+Parent: created child 12 (pid 82039)
+Process 12 (pid 82039) created and will sleep for 5 seconds
+Parent: created child 13 (pid 82040)
+Process 13 (pid 82040) created and will sleep for 8 seconds
+Parent: created child 14 (pid 82041)
+Process 14 (pid 82041) created and will sleep for 7 seconds
+Parent: created child 15 (pid 82042)
+Parent: created child 16 (pid 82043)
+Process 15 (pid 82042) created and will sleep for 2 seconds
+Process 16 (pid 82043) created and will sleep for 1 seconds
+Parent: created child 17 (pid 82044)
+Process 17 (pid 82044) created and will sleep for 4 seconds
+Parent: created child 18 (pid 82045)
+Process 18 (pid 82045) created and will sleep for 3 seconds
+Parent: created child 19 (pid 82046)
+Process 19 (pid 82046) created and will sleep for 6 seconds
+Parent: created child 20 (pid 82047)
+Process 20 (pid 82047) created and will sleep for 5 seconds
+Parent: created child 21 (pid 82048)
+Process 21 (pid 82048) created and will sleep for 8 seconds
+Parent: created child 22 (pid 82049)
+Process 22 (pid 82049) created and will sleep for 7 seconds
+Parent: created child 23 (pid 82050)
+Process 23 (pid 82050) created and will sleep for 2 seconds
+Parent: created child 24 (pid 82051)
+Parent: created child 25 (pid 82052)
+Process 24 (pid 82051) created and will sleep for 1 seconds
+Process 25 (pid 82052) created and will sleep for 4 seconds
+Parent: created child 26 (pid 82053)
+Process 26 (pid 82053) created and will sleep for 3 seconds
+Parent: created child 27 (pid 82054)
+Process 27 (pid 82054) created and will sleep for 6 seconds
+Parent: created child 28 (pid 82055)
+Process 28 (pid 82055) created and will sleep for 5 seconds
+Parent: created child 29 (pid 82056)
+** Pattern 1: All processes created
+Process 29 (pid 82056) created and will sleep for 8 seconds
+Process 0 (pid 82027): exiting
+Process 8 (pid 82035): exiting
+Process 16 (pid 82043): exiting
+Process 24 (pid 82051): exiting
+Process 7 (pid 82034): exiting
+Process 15 (pid 82042): exiting
+Process 23 (pid 82050): exiting
+Process 2 (pid 82029): exiting
+Process 10 (pid 82037): exiting
+Process 18 (pid 82045): exiting
+Process 26 (pid 82053): exiting
+Process 1 (pid 82028): exiting
+Process 9 (pid 82036): exiting
+Process 17 (pid 82044): exiting
+Process 25 (pid 82052): exiting
+Process 4 (pid 82031): exiting
+Process 12 (pid 82039): exiting
+Process 20 (pid 82047): exiting
+Process 28 (pid 82055): exiting
+Process 3 (pid 82030): exiting
+Process 11 (pid 82038): exiting
+Process 19 (pid 82046): exiting
+Process 27 (pid 82054): exiting
+Process 6 (pid 82033): exiting
+Process 14 (pid 82041): exiting
+Process 22 (pid 82049): exiting
+Process 5 (pid 82032): exiting
+Process 13 (pid 82040): exiting
+Process 21 (pid 82048): exiting
+Process 29 (pid 82056): exiting
+** Pattern 1: All children have exited
+----------------------------------
+Pattern 2 - Run 1
+** Pattern 2: creating 6 processes
+Parent: created child 0 (pid 83082)
+Child 0 (pid 83082): starting
+Child 0 (pid 83082) creating child 1 (pid 83083) and will sleep for 3 seconds
+Child 1 (pid 83083) starting
+Child 1 (pid 83083) creating child 2 (pid 83087) and will sleep for 2 seconds
+Child 2 (pid 83087) starting
+Child 2 (pid 83087) creating child 3 (pid 83088) and will sleep for 1 seconds
+Child 3 (pid 83088) starting
+Child 4 (pid 83096) starting
+Child 3 (pid 83088) creating child 4 (pid 83096) and will sleep for 8 seconds
+Child 4 (pid 83096) creating child 5 (pid 83101) and will sleep for 3 seconds
+Child 5 (pid 83101) starting
+Child 5 (pid 83101) [no children created] and will sleep for 1 seconds
+** Pattern 2: All children created
+Child 5 has exited
+Child 4 has exited
+Child 3 has exited
+Child 2 has exited
+Child 1 has exited
+Child 0 has exited
+** Pattern 2: All children have exited
+----------------------------------
+Pattern 2 - Run 2
+** Pattern 2: creating 6 processes
+Parent: created child 0 (pid 83053)
+Child 0 (pid 83053): starting
+Child 0 (pid 83053) creating child 1 (pid 83054) and will sleep for 2 seconds
+Child 1 (pid 83054) starting
+Child 1 (pid 83054) creating child 2 (pid 83058) and will sleep for 8 seconds
+Child 2 (pid 83058) starting
+Child 2 (pid 83058) creating child 3 (pid 83061) and will sleep for 5 seconds
+Child 3 (pid 83061) starting
+Child 3 (pid 83061) creating child 4 (pid 83065) and will sleep for 6 seconds
+Child 4 (pid 83065) starting
+Child 4 (pid 83065) creating child 5 (pid 83068) and will sleep for 3 seconds
+Child 5 (pid 83068) starting
+Child 5 (pid 83068) [no children created] and will sleep for 8 seconds
+** Pattern 2: All children created
+Child 5 has exited
+Child 4 has exited
+Child 3 has exited
+Child 2 has exited
+Child 1 has exited
+Child 0 has exited
+** Pattern 2: All children have exited
+----------------------------------
+Pattern 2 - Run 3
+** Pattern 2: creating 6 processes
+Parent: created child 0 (pid 83017)
+Child 0 (pid 83017): starting
+Child 0 (pid 83017) creating child 1 (pid 83018) and will sleep for 2 seconds
+Child 1 (pid 83018) starting
+Child 1 (pid 83018) creating child 2 (pid 83021) and will sleep for 1 seconds
+Child 2 (pid 83021) starting
+Child 2 (pid 83021) creating child 3 (pid 83022) and will sleep for 7 seconds
+Child 3 (pid 83022) starting
+Child 3 (pid 83022) creating child 4 (pid 83025) and will sleep for 5 seconds
+Child 4 (pid 83025) starting
+Child 4 (pid 83025) creating child 5 (pid 83028) and will sleep for 5 seconds
+Child 5 (pid 83028) starting
+Child 5 (pid 83028) [no children created] and will sleep for 2 seconds
+** Pattern 2: All children created
+Child 5 has exited
+Child 4 has exited
+Child 3 has exited
+Child 2 has exited
+Child 1 has exited
+Child 0 has exited
+** Pattern 2: All children have exited
+----------------------------------
+Pattern 2 - Run 4
+** Pattern 2: creating 10 processes
+Parent: created child 0 (pid 83171)
+Child 0 (pid 83171): starting
+Child 0 (pid 83171) creating child 1 (pid 83172) and will sleep for 8 seconds
+Child 1 (pid 83172) starting
+Child 1 (pid 83172) creating child 2 (pid 83177) and will sleep for 3 seconds
+Child 2 (pid 83177) starting
+Child 2 (pid 83177) creating child 3 (pid 83180) and will sleep for 5 seconds
+Child 3 (pid 83180) starting
+Child 3 (pid 83180) creating child 4 (pid 83183) and will sleep for 1 seconds
+Child 4 (pid 83183) starting
+Child 4 (pid 83183) creating child 5 (pid 83184) and will sleep for 3 seconds
+Child 5 (pid 83184) starting
+Child 5 (pid 83184) creating child 6 (pid 83187) and will sleep for 1 seconds
+Child 6 (pid 83187) starting
+Child 6 (pid 83187) creating child 7 (pid 83188) and will sleep for 3 seconds
+Child 7 (pid 83188) starting
+Child 7 (pid 83188) creating child 8 (pid 83190) and will sleep for 2 seconds
+Child 8 (pid 83190) starting
+Child 8 (pid 83190) creating child 9 (pid 83192) and will sleep for 2 seconds
+Child 9 (pid 83192) starting
+Child 9 (pid 83192) [no children created] and will sleep for 3 seconds
+** Pattern 2: All children created
+Child 9 has exited
+Child 8 has exited
+Child 7 has exited
+Child 6 has exited
+Child 5 has exited
+Child 4 has exited
+Child 3 has exited
+Child 2 has exited
+Child 1 has exited
+Child 0 has exited
+** Pattern 2: All children have exited
+----------------------------------
+Pattern 2 - Run 5
+** Pattern 2: creating 30 processes
+Parent: created child 0 (pid 83222)
+Child 0 (pid 83222): starting
+Child 0 (pid 83222) creating child 1 (pid 83223) and will sleep for 7 seconds
+Child 1 (pid 83223) starting
+Child 1 (pid 83223) creating child 2 (pid 83229) and will sleep for 4 seconds
+Child 2 (pid 83229) starting
+Child 2 (pid 83229) creating child 3 (pid 83232) and will sleep for 3 seconds
+Child 3 (pid 83232) starting
+Child 3 (pid 83232) creating child 4 (pid 83239) and will sleep for 5 seconds
+Child 4 (pid 83239) starting
+Child 4 (pid 83239) creating child 5 (pid 83247) and will sleep for 2 seconds
+Child 5 (pid 83247) starting
+Child 5 (pid 83247) creating child 6 (pid 83248) and will sleep for 1 seconds
+Child 6 (pid 83248) starting
+Child 6 (pid 83248) creating child 7 (pid 83249) and will sleep for 7 seconds
+Child 7 (pid 83249) starting
+Child 7 (pid 83249) creating child 8 (pid 83252) and will sleep for 5 seconds
+Child 8 (pid 83252) starting
+Child 8 (pid 83252) creating child 9 (pid 83256) and will sleep for 4 seconds
+Child 9 (pid 83256) starting
+Child 9 (pid 83256) creating child 10 (pid 83262) and will sleep for 6 seconds
+Child 10 (pid 83262) starting
+Child 10 (pid 83262) creating child 11 (pid 83265) and will sleep for 1 seconds
+Child 11 (pid 83265) starting
+Child 11 (pid 83265) creating child 12 (pid 83266) and will sleep for 7 seconds
+Child 12 (pid 83266) starting
+Child 12 (pid 83266) creating child 13 (pid 83272) and will sleep for 2 seconds
+Child 13 (pid 83272) starting
+Child 13 (pid 83272) creating child 14 (pid 83273) and will sleep for 7 seconds
+Child 14 (pid 83273) starting
+Child 14 (pid 83273) creating child 15 (pid 83276) and will sleep for 5 seconds
+Child 15 (pid 83276) starting
+Child 15 (pid 83276) creating child 16 (pid 83279) and will sleep for 8 seconds
+Child 16 (pid 83279) starting
+Child 16 (pid 83279) creating child 17 (pid 83280) and will sleep for 3 seconds
+Child 17 (pid 83280) starting
+Child 17 (pid 83280) creating child 18 (pid 83283) and will sleep for 1 seconds
+Child 18 (pid 83283) starting
+Child 18 (pid 83283) creating child 19 (pid 83284) and will sleep for 3 seconds
+Child 19 (pid 83284) starting
+Child 19 (pid 83284) creating child 20 (pid 83287) and will sleep for 1 seconds
+Child 20 (pid 83287) starting
+Child 20 (pid 83287) creating child 21 (pid 83288) and will sleep for 3 seconds
+Child 21 (pid 83288) starting
+Child 21 (pid 83288) creating child 22 (pid 83291) and will sleep for 1 seconds
+Child 22 (pid 83291) starting
+Child 22 (pid 83291) creating child 23 (pid 83293) and will sleep for 4 seconds
+Child 23 (pid 83293) starting
+Child 23 (pid 83293) creating child 24 (pid 83296) and will sleep for 3 seconds
+Child 24 (pid 83296) starting
+Child 24 (pid 83296) creating child 25 (pid 83297) and will sleep for 7 seconds
+Child 25 (pid 83297) starting
+Child 25 (pid 83297) creating child 26 (pid 83303) and will sleep for 4 seconds
+Child 26 (pid 83303) starting
+Child 26 (pid 83303) creating child 27 (pid 83304) and will sleep for 5 seconds
+Child 27 (pid 83304) starting
+Child 28 (pid 83308) starting
+Child 27 (pid 83304) creating child 28 (pid 83308) and will sleep for 4 seconds
+Child 28 (pid 83308) creating child 29 (pid 83311) and will sleep for 1 seconds
+Child 29 (pid 83311) starting
+Child 29 (pid 83311) [no children created] and will sleep for 5 seconds
+** Pattern 2: All children created
+Child 29 has exited
+Child 28 has exited
+Child 27 has exited
+Child 26 has exited
+Child 25 has exited
+Child 24 has exited
+Child 23 has exited
+Child 22 has exited
+Child 21 has exited
+Child 20 has exited
+Child 19 has exited
+Child 18 has exited
+Child 17 has exited
+Child 16 has exited
+Child 15 has exited
+Child 14 has exited
+Child 13 has exited
+Child 12 has exited
+Child 11 has exited
+Child 10 has exited
+Child 9 has exited
+Child 8 has exited
+Child 7 has exited
+Child 6 has exited
+Child 5 has exited
+Child 4 has exited
+Child 3 has exited
+Child 2 has exited
+Child 1 has exited
+Child 0 has exited
+** Pattern 2: All children have exited
+----------------------------------
