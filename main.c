@@ -4,8 +4,8 @@
 #include <sys/wait.h>
 #include <time.h>
 
-void random_sleep() {
-    srand(time(NULL) ^ getpid());
+void random_sleep(int pid) {
+    srand(time(NULL) ^ pid);
     int sleep_time = rand() % 8 + 1;
     printf("and will sleep for %d seconds\n", sleep_time);
     sleep(sleep_time);
@@ -18,7 +18,7 @@ void create_processes_pattern1(int n) {
         pid_t pid = fork();
         if (pid == 0) {
             printf("Process %d (pid %d) created ", i, getpid());
-            random_sleep();
+            random_sleep(getpid());
             printf("Process %d (pid %d): exiting\n", i, getpid());
             exit(0);
         } else {
@@ -54,7 +54,7 @@ void create_processes_pattern2(int n) {
                 // Only print the message for the last child
                 if (i == n - 1) {
                     printf("Child %d (pid %d) [no children created] ", i, getpid());
-                    random_sleep();
+                    random_sleep(pid);
                     printf("** Pattern 2: All children created\n");
                 }
                 exit(0);
@@ -62,7 +62,7 @@ void create_processes_pattern2(int n) {
             } else {
                 pids[0] = getpid();
                 printf("Child %d (pid %d) creating child %d (pid %d) ", i - 1, pids[i-1], i, pid);
-                random_sleep();
+                random_sleep(pid);
                 pids[i] = pid;
                 waitpid(pid, NULL, 0);
             }
